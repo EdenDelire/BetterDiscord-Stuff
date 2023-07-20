@@ -62,9 +62,9 @@
 .layer-3QrUeG::before,
 .layer-86YKbF::before {
     content: "Discord";
-    background: linear-gradient(0deg, rgb(41 41 41) 0%, rgb(132 132 132) 1%, rgb(185 185 185) 51%, rgba(228, 230, 228, 1) 98%, rgba(226, 230, 243, 1) 100%);
+    background-color: #323231;
     display: block;
-    color: black;
+    color: white;
     font-size: 14px;
     line-height: 32px;
     font-weight: regular;
@@ -76,10 +76,10 @@
 
 .layer-3QrUeG:not(.baseLayer-35bLyl)::before,
 .layer-86YKbF:not(.baseLayer-W6S8cY)::before {
-    content: "Discord Preferences";
-    background: linear-gradient(0deg, rgb(41 41 41) 0%, rgb(132 132 132) 1%, rgb(185 185 185) 51%, rgba(228, 230, 228, 1) 98%, rgba(226, 230, 243, 1) 100%);
+    content: "Réglages Discord";
+    background-color: #323231;
     display: block;
-    color: black;
+    color: white;
     font-size: 14px;
     line-height: 32px;
     font-weight: regular;
