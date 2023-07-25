@@ -69,6 +69,44 @@
     border-radius: 8px 8px 0 0;
 }
 
+#app-mount .layer-3QrUeG:not(.baseLayer-35bLyl),
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
+    background-color: transparent !important;
+    margin: 8rem 12.5rem;
+    box-shadow: 5px 10px 20px #1d1d1d9f;
+    border-radius: 0 0 8px 8px;
+    transition: all 0.1s ease !important;
+}
+
+.layer-3QrUeG,
+.layer-86YKbF {
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+
+.layer-3QrUeG.baseLayer-35bLyl.stop-animations,
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
+    margin: 0px !important;
+    transform: none !important;
+    pointer-events: none !important;
+}
+
+.layer-3QrUeG:not(.baseLayer-35bLyl),
+.layer-86YKbF:not(.baseLayer-W6S8cY) {
+    z-index: 999;
+}
+
+.layer-3QrUeG.baseLayer-35bLyl,
+.layer-86YKbF.baseLayer-W6S8cY {
+    transform: none !important;
+}
+
+.layer-3QrUeG:not(.baseLayer-35bLyl).animating-rRxada,
+.layer-86YKbF:not(.baseLayer-W6S8cY).animating-1rIrGV {
+    transform: scale(1.001) !important;
+    transition: all 0.1s ease-in-out !important;
+}
+
 /* MacOS Buttons for Windows (fix) */
 .platform-win .titleBar-1it3bQ {
     height: 25px;
