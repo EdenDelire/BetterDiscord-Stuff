@@ -361,8 +361,8 @@ textarea {
     background: var(--background-secondary);
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 7px;
-    margin: 0 10px 0 20px;
-    margin-bottom: 20px;
+    margin: 10px 10px 0 10px;
+    margin-bottom: 10px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
 }
@@ -376,8 +376,8 @@ textarea {
     background: var(--background-active);
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 7px;
-    margin: 0 10px 0 20px;
-    margin-bottom: 20px;
+    margin: 10px 10px 0 10px;
+    margin-bottom: 10px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     padding: 0;
@@ -392,8 +392,8 @@ textarea {
     background: var(--background-active);
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 7px;
-    margin: 0 10px 0 20px;
-    margin-bottom: 20px;
+    margin: 10px 10px 0 10px;
+    margin-bottom: 10px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     padding: 0;
