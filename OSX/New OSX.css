@@ -362,6 +362,7 @@ textarea {
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 7px;
     margin: 10px 10px 0 10px;
+    margin-top: 1px;
     margin-bottom: 10px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -377,6 +378,7 @@ textarea {
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 7px;
     margin: 10px 10px 0 10px;
+    margin-top: 1px;
     margin-bottom: 10px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -393,6 +395,7 @@ textarea {
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 7px;
     margin: 10px 10px 0 10px;
+    margin-top: 1px;
     margin-bottom: 10px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
