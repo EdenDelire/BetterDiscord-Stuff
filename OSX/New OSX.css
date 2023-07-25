@@ -38,75 +38,6 @@
     --background-notification: #26262bb4;
 }
 
-.layer-3QrUeG::before,
-.layer-86YKbF::before {
-    content: "Discord";
-    background: linear-gradient(45deg, rgb(52, 51, 56) 0%, rgb(52, 51, 56) 100%);
-    display: block;
-    color: white;
-    font-size: 14px;
-    line-height: 32px;
-    font-weight: regular;
-    text-align: center;
-    z-index: 999;
-    height: 32px;
-    -webkit-app-region: drag;
-}
-
-.layer-3QrUeG:not(.baseLayer-35bLyl)::before,
-.layer-86YKbF:not(.baseLayer-W6S8cY)::before {
-    content: "Réglages Discord";
-    background: linear-gradient(45deg, rgb(52, 51, 56) 0%, rgb(52, 51, 56) 100%);
-    display: block;
-    color: white;
-    font-size: 14px;
-    line-height: 32px;
-    font-weight: regular;
-    text-align: center;
-    z-index: 9999;
-    height: 32px;
-    -webkit-app-region: drag;
-    border-radius: 8px 8px 0 0;
-}
-
-#app-mount .layer-3QrUeG:not(.baseLayer-35bLyl),
-#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
-    background-color: transparent !important;
-    margin: 8rem 12.5rem;
-    box-shadow: 5px 10px 20px #1d1d1d9f;
-    border-radius: 0 0 8px 8px;
-    transition: all 0.1s ease !important;
-}
-
-.layer-3QrUeG,
-.layer-86YKbF {
-    background-color: transparent !important;
-    opacity: 1 !important;
-}
-
-.layer-3QrUeG.baseLayer-35bLyl.stop-animations,
-.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
-    margin: 0px !important;
-    transform: none !important;
-    pointer-events: none !important;
-}
-
-.layer-3QrUeG:not(.baseLayer-35bLyl),
-.layer-86YKbF:not(.baseLayer-W6S8cY) {
-    z-index: 999;
-}
-
-.layer-3QrUeG.baseLayer-35bLyl,
-.layer-86YKbF.baseLayer-W6S8cY {
-    transform: none !important;
-}
-
-.layer-3QrUeG:not(.baseLayer-35bLyl).animating-rRxada,
-.layer-86YKbF:not(.baseLayer-W6S8cY).animating-1rIrGV {
-    transform: scale(1.001) !important;
-    transition: all 0.1s ease-in-out !important;
-}
-
 /* MacOS Buttons for Windows (fix) */
 .platform-win .titleBar-1it3bQ {
     height: 25px;
@@ -211,11 +142,12 @@
     font-weight: 400;
 }
 
-.layer-3QrUeG::before {
+.layer-3QrUeG::before,
+.layer-86YKbF::before {
     content: "Discord";
-    background: linear-gradient(0deg, rgb(41 41 41) 0%, rgb(132 132 132) 1%, rgb(185 185 185) 51%, rgba(228, 230, 228, 1) 98%, rgba(226, 230, 243, 1) 100%);
+    background: linear-gradient(45deg, rgb(52, 51, 56) 0%, rgb(52, 51, 56) 100%);
     display: block;
-    color: black;
+    color: white;
     font-size: 14px;
     line-height: 32px;
     font-weight: regular;
@@ -225,11 +157,12 @@
     -webkit-app-region: drag;
 }
 
-.layer-3QrUeG:not(.baseLayer-35bLyl)::before {
-    content: "Discord Preferences";
-    background: linear-gradient(0deg, rgb(41 41 41) 0%, rgb(132 132 132) 1%, rgb(185 185 185) 51%, rgba(228, 230, 228, 1) 98%, rgba(226, 230, 243, 1) 100%);
+.layer-3QrUeG:not(.baseLayer-35bLyl)::before,
+.layer-86YKbF:not(.baseLayer-W6S8cY)::before {
+    content: "Réglages Discord";
+    background: linear-gradient(45deg, rgb(52, 51, 56) 0%, rgb(52, 51, 56) 100%);
     display: block;
-    color: black;
+    color: white;
     font-size: 14px;
     line-height: 32px;
     font-weight: regular;
@@ -243,7 +176,7 @@
 #app-mount .layer-3QrUeG:not(.baseLayer-35bLyl),
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
     background-color: transparent !important;
-    /*margin: 8rem 12.5rem;*/
+    margin: 8rem 12.5rem;
     box-shadow: 5px 10px 20px #1d1d1d9f;
     border-radius: 0 0 8px 8px;
     transition: all 0.1s ease !important;
