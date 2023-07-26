@@ -139,10 +139,6 @@
     z-index: 999999;
     cursor: pointer;
     font-weight: 400;
-}
-
-#app-mount .app-2rEoOp::after,
-#app-mount .app-2CXKsg::after {
     filter: blur(10px);
     -moz-filter: blur(10px);
     -webkit-filter: blur(10px);
