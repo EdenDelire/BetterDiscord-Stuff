@@ -134,12 +134,19 @@
     position: absolute;
     padding: 16px 16px;
     background: var(--background-notification);
-    backdrop-filter: blur(10px);
     box-shadow: 0 0 0 0.6pt var(--macbuttons-outline-color);
     border-radius: 12px;
     z-index: 999999;
     cursor: pointer;
     font-weight: 400;
+}
+
+#app-mount .app-2rEoOp::after,
+#app-mount .app-2CXKsg::after {
+    filter: blur(10px);
+    -moz-filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -o-filter: blur(10px);
 }
 
 .layer-3QrUeG::before,
