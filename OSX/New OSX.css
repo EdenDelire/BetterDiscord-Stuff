@@ -374,6 +374,7 @@ textarea {
 .peopleListItem-2nzedh,
 .peopleListItem-u6dGxF {
     width: 40%;
+    max-width: 30%;
     height: 150px !important;
     border: none;
     display: inline-grid;
@@ -390,6 +391,7 @@ textarea {
 .peopleListItem-2nzedh:hover,
 .peopleListItem-u6dGxF:hover {
     width: 40%;
+    max-width: 30%;
     height: 150px !important;
     border: none;
     display: inline-grid;
@@ -407,6 +409,7 @@ textarea {
 .peopleListItem-2nzedh.active-rhSpJJ,
 .peopleListItem-u6dGxF.active-2UF8Zh {
     width: 40%;
+    max-width: 30%;
     height: 150px !important;
     border: none;
     display: inline-grid;
