@@ -159,21 +159,6 @@
     backdrop-filter: blur(10px);
 }
 
-.layer-3QrUeG::before,
-.layer-86YKbF::before {
-    content: "Discord";
-    background: linear-gradient(45deg, rgb(52, 51, 56) 0%, rgb(52, 51, 56) 100%);
-    display: block;
-    color: white;
-    font-size: 14px;
-    line-height: 32px;
-    font-weight: regular;
-    text-align: center;
-    z-index: 999;
-    height: 32px;
-    -webkit-app-region: drag;
-}
-
 .layer-3QrUeG:not(.baseLayer-35bLyl)::before,
 .layer-86YKbF:not(.baseLayer-W6S8cY)::before {
     content: "Réglages Discord";
@@ -188,6 +173,7 @@
     height: 32px;
     -webkit-app-region: drag;
     border-radius: 8px 8px 0 0;
+    backdrop-filter: blur(1.5px);
 }
 
 #app-mount .layer-3QrUeG:not(.baseLayer-35bLyl),
