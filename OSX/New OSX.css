@@ -461,7 +461,7 @@ textarea {
 .submenu-2-ysNh,
 .submenu-1apzyU {
     left: -7px;
-    top: -100px;
+    max-height: calc(100vh - 32px);
 }
 
 .menu-3sdvDG .separator-2I32lJ,
