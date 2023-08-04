@@ -45,8 +45,8 @@
     --window-background-image-position: center;
     --window-background-image-attachment: fixed;
     --window-opacity: 100%;
-    --window-blur: 5;
-    --window-friends-blur: 5;
+    --window-blur: 1;
+    --window-friends-blur: 1;
     --window-margin: 24;
     --window-margin-left: 0;
     --window-border-radius: 10px;
@@ -78,9 +78,9 @@
     --enable-floating-transparency: 1;
 
     /* font */
-    --custom-font-display: "";
-    --custom-font-regular: "";
-    --custom-font-primary: "";
+    --custom-font-display: "SF Pro Text";
+    --custom-font-regular: "SF Pro Text";
+    --custom-font-primary: "SF Pro Text";
     --custom-font-code: "";
 
     /* other */
