@@ -45,8 +45,8 @@
     --window-background-image-position: center;
     --window-background-image-attachment: fixed;
     --window-opacity: 100%;
-    --window-blur: 0;
-    --window-friends-blur: 0;
+    --window-blur: 10;
+    --window-friends-blur: 10;
     --window-margin: 24;
     --window-margin-left: 0;
     --window-border-radius: 10px;
